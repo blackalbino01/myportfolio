@@ -236,7 +236,6 @@ header nav ul a:focus {
 }
 
 .hero {
-  background-image: url(../assets/background.png);
   background-size: cover;
 }
 
@@ -273,6 +272,11 @@ header nav ul a:focus {
 
 .hero-image {
   margin-right: 100px;
+  width: 30%;
+}
+.hero-image img{
+  border-radius: 100%;
+  width:100%;
 }
 
 @media (max-width: 615px) {
@@ -304,6 +308,9 @@ header nav ul a:focus {
   .hero-image {
     margin: 35px 0;
     width: 61%;
+  }
+  .hero-image img{
+    width:100%;
   }
   .hero-text {
     width: 100%;
@@ -737,6 +744,7 @@ footer {
 
 .about-image img {
   width: 100%;
+  border-radius: 10px;
 }
 
 .about-text {
