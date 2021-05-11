@@ -271,12 +271,13 @@ header nav ul a:focus {
 }
 
 .hero-image {
-  margin-right: 100px;
+  margin-right: 50px;
   width: 30%;
 }
 .hero-image img{
   border-radius: 100%;
   width:100%;
+  border: 2px solid #38d2d5;
 }
 
 @media (max-width: 615px) {
@@ -407,6 +408,7 @@ header nav ul a:focus {
 }
 
 .all-projects .section-title {
+  padding-top: 50px;
   text-align: center;
   font-family: "Karla", sans-serif;
   font-size: 3.5rem;
@@ -478,6 +480,10 @@ header nav ul a:focus {
 
 .project-mobile-image {
   margin-right: 30px;
+}
+.project-mobile-image img{
+  max-width:100%;
+  height: auto;
 }
 
 .project-text {
@@ -561,9 +567,6 @@ header nav ul a:focus {
             align-items: center;
     margin: 0 0 25px 0;
   }
-  .project-mobile-image img {
-    width: 80%;
-  }
   .project2 .project-mobile-image,
   .project4 .project-mobile-image {
     margin-left: 0;
@@ -579,10 +582,6 @@ header nav ul a:focus {
   }
 }
 
-.contact {
-  background-image: url(../assets/dot-background.png);
-  background-size: cover;
-}
 
 .contact .wrapper {
   display: -webkit-box;
@@ -711,15 +710,12 @@ textarea {
 
 footer {
   background-color: #0a1b4a;
-  height: 5vh;
-  width: 100%;
   position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
+  width: 100%;
   text-align: center;
   padding: 30px;
   margin-top: 50px;
+  bottom: 0;
   color: white;
 }
 
@@ -766,6 +762,7 @@ footer {
 .resume {
   margin: 0 auto;
   text-align: center;
+  padding-bottom: 50px;
 }
 
 .resume button {
@@ -798,6 +795,7 @@ footer {
   }
   .about-text {
     width: 100%;
+    padding-top: 40px;
   }
   .about-section .wrapper {
     -webkit-box-orient: vertical;
@@ -832,7 +830,7 @@ footer {
   margin-bottom: 15px;
 }
 
-.diverse-lit p,
+.ems p,
 .bowser-bash p,
 .shoe-kloset p,
 .gif-me-a-movie p {
@@ -842,6 +840,10 @@ footer {
 .project-image,
 .project-description {
   margin-bottom: 35px;
+}
+.project-image img{
+  max-width:100%;
+  height: auto;
 }
 
 .hero .links {
