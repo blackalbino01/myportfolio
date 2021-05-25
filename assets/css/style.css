@@ -482,7 +482,7 @@ header nav ul a:focus {
   margin-right: 30px;
 }
 .project-mobile-image img{
-  max-width:100%;
+  width:100%;
   height: auto;
 }
 
