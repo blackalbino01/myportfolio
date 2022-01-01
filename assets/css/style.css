@@ -962,3 +962,10 @@ img {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+
+.svg{
+  width: 95px;
+  height: 70px;
+  margin-bottom: 25px;
+}
+
